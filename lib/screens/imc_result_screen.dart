@@ -108,7 +108,9 @@ class ImcResultScreen extends StatelessWidget {
                 height: 60,
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
                     style: ButtonStyle(
                         shape: WidgetStateProperty.all(RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8))),
@@ -126,7 +128,7 @@ class ImcResultScreen extends StatelessWidget {
 
   AppBar toolbarResult() {
     return AppBar(
-      title: Text("Result"),
+      title: const Text("Result"),
       backgroundColor: AppColors.primary,
       foregroundColor: Colors.white,
     );

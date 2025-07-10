@@ -1,21 +1,12 @@
-<<<<<<< HEAD
-# imc_calculator
+# IMC App 🧮
 
-A new Flutter project.
+**IMC App** es una calculadora de Índice de Masa Corporal (IMC) desarrollada con **Flutter**. Permite al usuario ingresar su edad, peso, estatura y género, para luego mostrarle su IMC y una recomendación personalizada según su resultado.
 
-## Getting Started
+## ✨ Características
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# imc_app
- IMC App – Calculadora de Índice de Masa Corporal
->>>>>>> 3487e5ad0584075311653fbf62bf0f4ef49cf9d3
+- Selector de género.
+- Control deslizante para la estatura.
+- Botones para aumentar/disminuir edad y peso.
+- Cálculo del IMC con resultado numérico.
+- Recomendaciones personalizadas.
+- Estilo moderno y responsivo.
